@@ -17,6 +17,7 @@
  	* * {EventId} [string] 标记主事件
  	* * {Label} [string] 标记子事件
  	* * {MapKv} [object] 事件的参数信息，描绘发生事件时的属性和场景
+ 	* * {lookup} [bool] 是否继续冒泡，默认冒泡，设置false阻止冒泡
  	* 
  	* 3、越接近事件源的dom优先级越高，可以覆盖上层的log属性
  	*
