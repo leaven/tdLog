@@ -76,7 +76,7 @@
 			$('body').on('click', '[data-log]', function(e) {
 				logParams = {};
 
-				deepLook(e.target);
+				deepLook(this);
 
 				var EventId = logParams.EventId,
 					Label = logParams.Label,
